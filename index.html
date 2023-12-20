@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.cssS">
+    <title>Document</title>
+</head>
+<body>
+    
+     <div class="container-fluid">
+        <div class="myContainer">
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-default">livello difficoltà</span>
+                <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" id="difficolta">
+            </div>  
+
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-default">quantità bombe</span>
+                <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" id="bombs">
+            </div>  
+            
+            <div class="game">
+                <div class="tastiera">
+
+                </div>
+                <div class="infoGioco">
+                    <div class="regole">
+                        <h4>LIVELLO DIFFICOLTA'</h4>
+                        <P>
+                            Facile : dovrai scegliere 5 numeri  tra i 100 disponibili , sperando di non colpire una bomba!<br>
+                            Medio: dovrai scegliere 15 numeri tra i 100 disponibili.<br>
+                            Difficile:dovrai scegliere 25 numeri tra i 100 disponibili!
+
+                        </P>
+                        <h4>QUANTITA' BOMBE</h4>
+                        <p>
+                        Facile : avrai nel campo di gioco 10 numeri bomba nascoti tra 100 numeri generati<br>
+                        Medio:avrai nel campo di gioco 20 numeri bomba nascosti tra 100 numeri generati.<br>
+                        Difficile: avrai nel campo di gioco 35 numeri bomba nascosti tra 100 numeri generati
+                        </p>
+                        <div class="risultato">
+                            <span id="result">RISULTATO DELLA PARTITA</span>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+            <div class="bottoni">
+                <button id="gioca">gioca</button><button>ricomincia</button>
+            </div>    
+
+        </div>
+
+       
+
+     </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

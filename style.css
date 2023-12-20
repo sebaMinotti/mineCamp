@@ -1,0 +1,95 @@
+*{
+    padding: 0;box-sizing: border-box;margin: 0;
+}
+
+.container-fluid{
+    width: 100%;height: 100vh;background: linear-gradient(90deg, rgb(93, 68, 161) 0%, rgb(21, 21, 136) 100%);
+    
+}
+
+.myContainer{
+    position: relative;
+    width: 80%;
+    height: 90vh;
+    position: absolute;
+    left: 50%;
+    top: 5vh;
+    margin-left: -40%;
+    padding: 10px 20px;
+}
+input {
+    background-color: darkorange !important;
+}
+
+.game{
+    width: 99%;
+    height: 70vh;
+    padding: auto ;
+    background-color: whitesmoke;
+    display: flex;flex-direction: row;justify-content: space-around;
+}
+.tastiera{
+    width: 50%;
+    height:65vh;
+    background-color: rgb(93, 68, 161);
+    margin-top: 2.5vh;
+    display: flex;flex-direction: row;flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    
+}
+.coverCella{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgb(93, 68, 161);
+    z-index: 999;
+    display: none;
+}
+.cella{
+    width: calc(100% / 10);
+    height: calc(100% / 14);
+    margin: 2px;
+    background-color: darkorange;
+    display: flex;justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    color:rgb(93, 68, 161);
+    
+}
+.risultato{
+    width: 99%;
+    height: 5rem;
+    background-color: rgb(93, 68, 161);
+    color: white;padding: 5px;
+}
+
+.infoGioco{
+    width: 45%;
+    height: 55vh;
+    background-color: darkorange;
+    margin-top: 2.5vh;
+}
+.regole{
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+}
+.bottoni{
+    width: 20rem;
+    height: 10vh;
+    background-color: orange;
+    position: absolute;
+    right: 2.5rem;
+    bottom: 5px;
+    display: flex;justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+.bottoni button{
+    height: 50%;width: 40%;
+    margin-left: 5px;
+    outline: none;border: none;
+
+}
